@@ -42,7 +42,9 @@ public class Main {
                 array1[i]++;
             }
             System.out.print(array1[i]);
-            if (i != array1.length - 1) System.out.print(",");
+            if (i != array1.length - 1) {
+                System.out.print(",");
+            }
         }
     }
 }
